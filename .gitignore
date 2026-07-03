@@ -1,0 +1,26 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+backend/app.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/smoke*.mjs
+frontend/smoke*.png
+
+# Local secrets/notes — never commit
+credential.txt
+
+# Claude Code local settings (machine-specific, not shared)
+.claude/settings.local.json
+
+# Scratch/debug scripts
+backend/tmp_*.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
